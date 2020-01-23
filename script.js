@@ -27,6 +27,19 @@ var timeActive = false;
       choiceA.innerHTML = q.choices[3];
     }
 
+    function correctAnswer(){
+
+
+    }
+
+    function clock(){
+        var timeLeft = setInterval(function(){
+            secondsLeft--;
+            counter.textContent = 
+        }
+
+
+    }
 
 //add eventlistener click for start button
     //hide start div and display questions div
